@@ -34,7 +34,7 @@ public class Test implements ConsoleResponder {
 
     @Override
     public void action(String command, IoSession session) {
-        if ("time".equals(command)) {
+        if ("now".equals(command)) {
             session.write(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
                     .format(new Date()));
         } else if ("bye".equals(command)) {
