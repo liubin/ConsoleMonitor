@@ -23,10 +23,10 @@ public class Test implements ConsoleResponder {
      * start console server.
      */
     public void startConsoleMonitor() {
-        this.consoleServer = new ConsoleServer(this);
-
         try {
-            this.consoleServer.startServer("127.0.0.1", 6789);
+            this.consoleServer = new ConsoleServer(this,"console-monitor.conf");
+
+            this.consoleServer.startServer();
         } catch (Exception e) {
             e.printStackTrace();
         }
