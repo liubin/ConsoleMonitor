@@ -86,3 +86,9 @@ and when you telent to server:6666 ,you will must do auth by input:
   AUTH:XXXX
 
 where AUTH must be in upper case and XXXX is what you set in console_monitor.access_key
+
+## Copyright & License
+
+Copyright (C): bin liu <bin@liubin.org>
+
+MIT: http://rem.mit-license.org
